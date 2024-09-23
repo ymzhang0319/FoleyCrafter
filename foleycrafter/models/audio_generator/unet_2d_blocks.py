@@ -22,9 +22,13 @@ from diffusers.models.activations import get_activation
 from diffusers.models.normalization import AdaGroupNorm
 from diffusers.utils import is_torch_version, logging
 from diffusers.utils.torch_utils import apply_freeu
-from foleycrafter.models.auffusion.attention_processor import Attention, AttnAddedKVProcessor, AttnAddedKVProcessor2_0
-from foleycrafter.models.auffusion.dual_transformer_2d import DualTransformer2DModel
-from foleycrafter.models.auffusion.resnet import (
+from foleycrafter.models.audio_generator.attention_processor import (
+    Attention,
+    AttnAddedKVProcessor,
+    AttnAddedKVProcessor2_0,
+)
+from foleycrafter.models.audio_generator.dual_transformer_2d import DualTransformer2DModel
+from foleycrafter.models.audio_generator.resnet import (
     Downsample2D,
     FirDownsample2D,
     FirUpsample2D,
@@ -33,7 +37,7 @@ from foleycrafter.models.auffusion.resnet import (
     ResnetBlock2D,
     Upsample2D,
 )
-from foleycrafter.models.auffusion.transformer_2d import Transformer2DModel
+from foleycrafter.models.audio_generator.transformer_2d import Transformer2DModel
 
 
 logger = logging.get_logger(__name__)  # pylint: disable=invalid-name

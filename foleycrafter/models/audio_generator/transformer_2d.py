@@ -24,7 +24,7 @@ from diffusers.models.lora import LoRACompatibleConv, LoRACompatibleLinear
 from diffusers.models.modeling_utils import ModelMixin
 from diffusers.models.normalization import AdaLayerNormSingle
 from diffusers.utils import USE_PEFT_BACKEND, BaseOutput, deprecate, is_torch_version
-from foleycrafter.models.auffusion.attention import BasicTransformerBlock
+from foleycrafter.models.audio_generator.attention import BasicTransformerBlock
 
 
 @dataclass

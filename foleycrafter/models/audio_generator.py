@@ -46,9 +46,9 @@ from diffusers.models.modeling_utils import ModelMixin
 from diffusers.utils import USE_PEFT_BACKEND, BaseOutput, deprecate, logging, scale_lora_layers, unscale_lora_layers
 from diffusers.utils.import_utils import is_xformers_available
 from foleycrafter.models.adapters.ip_adapter import TimeProjModel
-from foleycrafter.models.auffusion.attention_processor import AttnProcessor2_0
-from foleycrafter.models.auffusion.loaders.unet import UNet2DConditionLoadersMixin
-from foleycrafter.models.auffusion.unet_2d_blocks import (
+from foleycrafter.models.audio_generator.attention_processor import AttnProcessor2_0
+from foleycrafter.models.audio_generator.loaders.unet import UNet2DConditionLoadersMixin
+from foleycrafter.models.audio_generator.unet_2d_blocks import (
     UNetMidBlock2D,
     UNetMidBlock2DCrossAttn,
     UNetMidBlock2DSimpleCrossAttn,

@@ -13,7 +13,7 @@ from transformers import CLIPImageProcessor, CLIPVisionModelWithProjection
 
 from foleycrafter.models.onset import torch_utils
 from foleycrafter.models.time_detector.model import VideoOnsetNet
-from foleycrafter.pipelines.auffusion_pipeline import Generator, denormalize_spectrogram
+from foleycrafter.pipelines.foleycrafter_pipeline import Generator, denormalize_spectrogram
 from foleycrafter.utils.util import build_foleycrafter, read_frames_with_moviepy
 
 

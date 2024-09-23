@@ -39,7 +39,7 @@ from diffusers.models.upsampling import (  # noqa
     upsample_2d,
 )
 from diffusers.utils import USE_PEFT_BACKEND
-from foleycrafter.models.auffusion.attention_processor import SpatialNorm
+from foleycrafter.models.audio_generator.attention_processor import SpatialNorm
 
 
 class ResnetBlock2D(nn.Module):

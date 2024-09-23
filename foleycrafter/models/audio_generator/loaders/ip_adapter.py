@@ -39,7 +39,7 @@ if is_transformers_available():
         IPAdapterAttnProcessor,
     )
 
-from foleycrafter.models.auffusion.attention_processor import (
+from foleycrafter.models.audio_generator.attention_processor import (
     IPAdapterAttnProcessor2_0,
     VPTemporalAdapterAttnProcessor2_0,
 )

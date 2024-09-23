@@ -23,7 +23,7 @@ from diffusers.models.lora import LoRACompatibleLinear
 from diffusers.models.normalization import AdaLayerNorm, AdaLayerNormContinuous, AdaLayerNormZero, RMSNorm
 from diffusers.utils import USE_PEFT_BACKEND
 from diffusers.utils.torch_utils import maybe_allow_in_graph
-from foleycrafter.models.auffusion.attention_processor import Attention
+from foleycrafter.models.audio_generator.attention_processor import Attention
 
 
 def _chunked_feed_forward(

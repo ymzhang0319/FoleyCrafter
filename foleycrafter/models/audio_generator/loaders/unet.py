@@ -36,7 +36,7 @@ from diffusers.utils import (
     set_adapter_layers,
     set_weights_and_activate_adapters,
 )
-from foleycrafter.models.auffusion.attention_processor import (
+from foleycrafter.models.audio_generator.attention_processor import (
     AttnProcessor2_0,
     IPAdapterAttnProcessor2_0,
     VPTemporalAdapterAttnProcessor2_0,

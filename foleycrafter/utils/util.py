@@ -28,8 +28,8 @@ from transformers import CLIPTextModel, CLIPTokenizer
 from diffusers import ControlNetModel
 from diffusers.models import AutoencoderKL
 from diffusers.schedulers import DDIMScheduler, PNDMScheduler
-from foleycrafter.models.auffusion_unet import UNet2DConditionModel as af_UNet2DConditionModel
-from foleycrafter.pipelines.pipeline_controlnet import StableDiffusionControlNetPipeline
+from foleycrafter.models.audio_generator import UNet2DConditionModel as af_UNet2DConditionModel
+from foleycrafter.pipelines.foleycrafter_pipeline import StableDiffusionControlNetPipeline
 
 
 def zero_rank_print(s):
