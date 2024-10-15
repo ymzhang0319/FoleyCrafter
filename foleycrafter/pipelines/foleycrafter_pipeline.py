@@ -31,7 +31,7 @@ from diffusers.utils import (
 )
 from diffusers.utils.torch_utils import is_compiled_module, is_torch_version
 from foleycrafter.models.audio_generator.loaders.ip_adapter import IPAdapterMixin
-from foleycrafter.models.unet import UNet2DConditionModel
+from foleycrafter.models.audio_generator.unet import UNet2DConditionModel
 
 
 logger = logging.get_logger(__name__)  # pylint: disable=invalid-name
